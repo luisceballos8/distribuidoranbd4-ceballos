@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    background-color: rgb(48, 48, 241);
+    text-align: center;
+}
+
+.titulo__principal{
+    text-align: center;
+}
+
+header{
+    background-color: rgb(48, 48, 241);
+    padding: 12px;
+
+    /* display: flex;
+    
+    justify-content: space-between;
+    align-items: center; */
+}
+
+header nav{
+    text-align: center;
+    width: 100%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li a{
+    color: white;
+}
+
+@media(min-width: 1200px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header nav{
+        width: 50%;
+    }
+
+    .logo{
+        text-align: left;
+    }
+
+    .titulo__principal{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+}
+/* .buscador{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+   
+} */
+
+.fondo{
+    color: white;
+
+    width: 100%;
+    height: 100vh;
+
+    background: url("../images/fondopag.jpg") left / cover no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.principal{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(111, 112, 177, 0.514);
+
+    border-radius: 5px;
+
+    padding: 10px;
+}
+
+
+/* .somos{
+
+    margin-top: 8px;
+
+    background-color: rgb(182, 182, 214);
+   
+    height: 96%;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    column-gap: 10px;
+} */
+
+.imagen__quienes{  
+    width: 100%;
+    height: 60vh;
+
+    background-image: url(../images/fondo.jpg);
+
+}
+
+.era{
+    color: white;
+    background-color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    } 
+    
+.historia{
+    margin: 12px;
+    text-align: center;
+}
+
+.era__media{
+        color: white;
+        text-align: center;
+        margin-top: 8px;
+        padding: 5px;
+    }
+
+@media(min-width: 1200px){
+    .somos{
+        margin-top: 8px;
+        background-color: rgb(182, 182, 214);
+        height: 96%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+    }
+
+    .historia{
+        margin: 5px;
+        display: flex;
+    
+        justify-content: space-between;
+        align-items: center;
+        text-align: justify;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quienes{
+    color: black;
+    text-align: center;
+}
+
+
+.parrafo{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+
+    background-color: rgb(70, 150, 243);   
+}
+
+.barra{
+    font-style: italic;
+}
+
+.alineado{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.caja{
+    min-width: 260px;
+    height: 350px;
+    padding: 8px;
+    margin: 13px;
+
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+@media(min-width: 1200px){
+    .ofertas-titulos{
+        display: flex;
+        justify-content: flex-start;
+        gap: 5px;
+
+        padding: 10px;
+
+        overflow: scroll;
+    }
+
+    .caja{
+        min-width: 200px;
+        height: 330px;
+
+        align-items: center;
+    }
+}
+
+/* .ofertas-titulos{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+
+    padding: 12px;
+
+    overflow: scroll;
+    } */
+
+h4{
+    background-color:blue;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    padding: 12px;
+    }
+
+
+.ubicacion{
+    margin: 5px;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+}    
+
+.oferta{
+    margin-top: 16px;
+
+    color: white;
+    background-color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+@media(min-width: 1200px){
+    .novedades-g{
+        margin-top: 16px;
+        padding: 10px;
+        display: grid;
+
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+
+        grid-template-areas: 
+        "milwaukee bosch aside"
+        "einhell skill aside";
+
+        column-gap: 60px;
+        row-gap: 32px;
+    }
+}
+
+/* .novedades{
+    margin-top: 16px;
+    width: 100%;
+} */
+
+.marca__nueva{
+    text-align: center;
+    margin: 15px;
+}
+.milwaukee{
+    grid-area: milwaukee;
+}
+
+.bosch{
+    grid-area: bosch;
+}
+
+.einhell{
+    grid-area: einhell;
+}
+
+.skill{
+    grid-area: skill;
+}
+
+aside{
+    grid-area: aside;
+}
+
+.tarjeta__boton{
+    border: blue 2 px solid;
+    border-radius: 30px;
+
+    background-color: steelblue;
+    margin: 10px;
+
+    padding: 6px 16px;
+}
+
+.redes{
+    margin-top: 16px;
+}
+
+.marcas{
+    text-align: center;
+    margin-top: 6px;
+    padding: 5px;
+}
+
+
+ul{
+    list-style: none;
+    font-size: 1rem;
+}
+
+li{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    font-size: 1rem;
+}
+
+ul ul{
+    position: absolute;
+    display: none;
+}
+    
+ul ul li{
+    display: block;
+}
+
+ul li:hover ul {
+    display: block;
+
+}
+
+.retiro{
+    color: white;
+    text-align: center;
+    background-color: blue;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+
+.retiro__map{
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+/* Quines Somos */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Productos */
+
+.productos1{
+    text-align: center;
+
+    width: 250px;
+    height: 380px;
+
+    border-color: blue;
+    border-width: 2px;
+    border-style: none;
+
+    margin: 20px 30px 70px 50px;
+
+    padding: 15px;
+
+    display: inline-block;
+}
+
+.titulo-productos{
+    color: white;
+    text-align: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1,2rem;
+
+    margin-top: 5px;
+
+    background-color: rgb(19, 19, 160)
+}
+
+.bulones{
+    text-align: center;
+    margin-top: 16px;
+    padding-top: 10px;
+}
+    
+
+/* Servico */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contacto */
