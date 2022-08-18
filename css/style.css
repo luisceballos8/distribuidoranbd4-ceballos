@@ -4,40 +4,47 @@
     box-sizing: border-box;
 }
 
+.barran{
+    font-style: italic;
+    color: white;
+    list-style: none;
+}
 .logo{
     background-color: rgb(48, 48, 241);
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .titulo__principal{
     text-align: center;
 }
 
-header{
+/* header{
     background-color: rgb(48, 48, 241);
     padding: 12px;
 
-    /* display: flex;
+    display: flex;
     
     justify-content: space-between;
-    align-items: center; */
-}
+    align-items: center;
+} */
 
-header nav{
+/* header nav{
     text-align: center;
     width: 100%;
-}
+} */
 
-header nav ul{
+/* header nav ul{
     display: flex;
     justify-content: space-around;
-}
+} */
 
-header nav ul li a{
+/* header nav ul li a{
     color: white;
-}
+} */
 
-@media(min-width: 1200px) {
+/* @media(min-width: 1200px) {
     header {
         display: flex;
         justify-content: space-between;
@@ -58,7 +65,7 @@ header nav ul li a{
         align-items: center;
        
     }
-}
+} */
 /* .buscador{
     display: flex;
     justify-content: right;
@@ -83,9 +90,8 @@ header nav ul li a{
     text-align: center;
     color: rgb(255, 255, 255);
     background-color: rgba(111, 112, 177, 0.514);
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 5px;
-
     padding: 10px;
 }
 
@@ -159,8 +165,8 @@ a{
 }
 
 h1{
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .quienes{
@@ -339,12 +345,12 @@ aside{
 }
 
 
-ul{
+/* ul{
     list-style: none;
     font-size: 1rem;
-}
+} */
 
-li{
+/* li{
     display: inline-block;
     width: 100%;
     position: relative;
@@ -353,24 +359,24 @@ li{
     transition: all 0.5s ease-in-out;
     width: 115px;
     border-radius: 4px;
-}
+} */
 
-li:hover{
+/* li:hover{
     background-color: rgb(41, 39, 39);
-}
+} */
 
-ul ul{
+/* ul ul{
     position: absolute;
     display: none;
-}
+} */
     
-ul ul li{
+/* ul ul li{
     display: block;
-}
+} */
 
-ul li:hover ul {
+/* ul li:hover ul {
     display: block;
-}
+} */
 
 .retiro{
     color: white;

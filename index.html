@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    
     
     <title>Distribuidora NB</title>
 
@@ -17,54 +20,53 @@
 
     <header>
 
-        <section class="logo">
-
-            <img src="./images/logo.jpg" alt="Logo">
-
-        </section>
-
-            <h1 class="titulo__principal">Ferreterias y Constructoras</h1>
-
-                <nav class="barra">
-                    <ul>
-                        <li> <a href="./pages/quienes.html">Quienes Somos</a></li>
-                         <li> <a href="./pages/productos.html">Productos</a>
-               
-                            <!-- <ul>
-                                    <li>Bulones y Tirafondos</li>
-                                    <li>Autoperforantes</li>
-                                    <li>Drywall Madera</li>
-                                    <li>Fix Dorado</li>
-                                    <li>Tarugos</li>
-                                    <li>Maquinas</li>
-                                    <li>Herramientas</li>
-                                </ul> -->
-                        </li>   
-                        <li> <a href="./pages/servicio.html">Servicio</a></li>
-                        <li> <a href="./pages/contacto.html">Contacto</a> </li>
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1220e9;">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="./images/logo.jpg" alt="Logo" class="d-inline-block align-tex-center"> 
+                    <h1>Ferreterias y Constructoras</h1></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-4 mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link barran" aria-current="page" href="./pages/quienes.html">Quienes Somos</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link barran" href="./pages/productos.html">Productos</a>
+                        <!-- <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Bulones</a></li>
+                          <li><a class="dropdown-item" href="#">Tirafondos</a></li>
+                          <li><a class="dropdown-item" href="#">Autoperforantes</a></li>
+                          <li><a class="dropdown-item" href="#">Maquinas</a></li>
+                          <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul> -->
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link barran" href="./pages/contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link barran" href="./pages/servicio.html">Servicio</a>
+                      </li>
                     </ul>
-                </nav>
-
-                <!-- <div class="buscador">
-
-                    <form action="./pages/productos.html">
-                        <input type="search">
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-3" type="search" placeholder="Productos" aria-label="Search">
+                      <button class="btn btn btn-primary" type="submit">Buscar</button>
                     </form>
-    
-                </div>  -->
+                  </div>
+                </div>
+              </nav>
 
     </header>
-    <hr>
-
-    <section class="fondo">
+    
+    <section class="fondo mt-2">
 
                 <div class="principal">
-
                     <h2>
                         Bienvenidos al sitio web donde encontraras todo lo que necestias para tu ferreteria, taller, carpinteria e inclusive para las repaaciones en tu hogar.
-                    
-                    </h2>
-    
+                    </h2>   
                 </div>
     
     </section>
@@ -258,10 +260,7 @@
         </article>
 
     </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>    
 </body>
 </html>
