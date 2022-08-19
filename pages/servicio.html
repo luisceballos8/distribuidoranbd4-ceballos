@@ -1,105 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
     <title>Distribuidora NB - Servicio</title>
 
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
 
-</head>
-
-<body>
-
-    <header>
-
-        <section>
-
-            <img src="../images/logo.jpg" alt="Logo">
-    
-        </section>
-
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #1220e9"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand d-none d-md-block"
+          ><img
+            src="../images/logo.png"
+            alt="Logo"
+            class="d-inline-block align-tex-center"
+        /></a>
         <h1>Ferreterias y Constructoras</h1>
-
-        <nav  class="barra">
-
-            <ul>
-                <li> <a href="../index.html">Incio</a></li>
-                <li> <a href="../pages/quienes.html">Quienes Somos</a></li>
-                <li> <a href="../pages/productos.html">Productos</a>
-                   
-                    <!-- <ul>
-                            <li>Bulones</li>
-                            <li>Tirafondos</li>
-                            <li>Autoperforantes</li>
-                            <li>Drywall Madera</li>
-                            <li>Fix Dorado</li>
-                            <li>Tarugos</li>
-                            <li>Maquinas</li>
-                            <li>Herramientas</li>
-                    </ul> -->
-                </li>   
-                <li> <a href="../pages/contacto.html">Contacto</a> </li>
-            </ul>
-        </nav>
-    
-    </header>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-4 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link barran"
+                aria-current="page"
+                href="../index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link barran" href="../pages/productos.html"
+                >Productos</a
+              >
+              <!-- <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Bulones</a></li>
+                  <li><a class="dropdown-item" href="#">Tirafondos</a></li>
+                  <li><a class="dropdown-item" href="#">Autoperforantes</a></li>
+                  <li><a class="dropdown-item" href="#">Maquinas</a></li>
+                  <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link barran" href="../pages/contacto.html"
+                >Contacto</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link barran" href="../pages/quienes.html"
+                >Quienes Somos</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-3"
+              type="search"
+              placeholder="Productos"
+              aria-label="Search"
+            />
+            <button class="btn btn btn-primary" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
 
     <main>
+      <section>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab cum ex
+          molestiae minus quis dolorum numquam, illum, enim est sed dolor. Quas
+          ab tempora temporibus impedit odio quae deserunt maxime.
+        </p>
 
-        <section>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+          quam, modi, fuga dignissimos quidem animi, consequuntur tempore nobis
+          neque eveniet ullam odit aut. Nemo soluta libero nobis autem nostrum.
+          Quam!
+        </p>
 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab cum ex molestiae minus quis dolorum numquam, illum, enim est sed dolor. Quas ab tempora temporibus impedit odio quae deserunt maxime.</p>
+        <h3 class="era">Zona de Cobertura</h3>
 
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quam, modi, fuga dignissimos quidem animi, consequuntur tempore nobis neque eveniet ullam odit aut. Nemo soluta libero nobis autem nostrum. Quam!</P>
-    
-            <h3>Zona de Cobertura</h3>
-    
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat esse, possimus facere consequuntur dignissimos et ad. Esse alias quos modi ab quaerat obcaecati omnis perferendis similique, dolore ut saepe et!</p>
-        
-            <aside>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat esse,
+          possimus facere consequuntur dignissimos et ad. Esse alias quos modi
+          ab quaerat obcaecati omnis perferendis similique, dolore ut saepe et!
+        </p>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur!</p>
+        <div class="retiro__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.1271292604624!2d-58.52997128505321!3d-34.57564966351995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb70b97027a6b%3A0x4b2f12db60a361a7!2sLas%20Heras%201656%2C%20San%20Mart%C3%ADn%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1658021737148!5m2!1ses!2sar"
+            width="520"
+            height="360"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
 
-            </aside>
-
-        </section>
-    
+        <aside>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequatur!
+          </p>
+        </aside>
+      </section>
     </main>
 
-
     <footer>
+      <article class="marcas" data-aos="zoom-out-up">
+        <span><img src="../images/bosch.jpeg" alt="logo" /></span>
+        <samp><img src="../images/fisher.jpeg" alt="" /></samp>
+        <span><img src="../images/tel.jpeg" alt="Logo" /></span>
+        <span><img src="../images/milwaukeelogo.jpeg" alt="logo" /></span>
+        <span><img src="../images/skill.jpeg" alt="logo" /></span>
+        <span><img src="../images/tyrolit.jpeg" alt="logo" /></span>
+      </article>
 
-        <article class="marcas">
+      <div class="redes">
+        <h2 class="alineado">Siguenos en Nuestras Redes</h2>
+      </div>
 
-            <span><img src="../images/bosch.jpeg" alt="logo"></span> <samp><img src="../images/fisher.jpeg" alt=""></samp> <span><img src="../images/tel.jpeg" alt="Logo"></span> <span><img src="../images/milwaukeelogo.jpeg" alt="logo"></span> <span><img src="../images/skill.jpeg" alt="logo"></span> <span><img src="../images/tyrolit.jpeg" alt="logo"></span>
-        
-        </article>
+      <div class="alineado">
+        <a href="https://Instagram.com" target="_blank"
+          ><i class="bi-instagram"></i
+        ></a>
+        <a href="https://Facebook.com" target="_blank"
+          ><i class="bi-facebook"></i
+        ></a>
+        <a href="https://https://web.whatsapp.com/" target="_blank"
+          ><i class="bi-whatsapp"></i
+        ></a>
+      </div>
 
-        
-        <div class="redes">
-
-            <h2 class="alineado">Siguenos en Nuestras Redes</h2>
-
-        </div>
-        
-        <div class="barra alineado redes">
-
-            <a href="https://Facebook.com" target="_blank"><img src="../images/facebook.jpg" alt="logo"></a>
-            <a href="https://Instagram.com" target="_blank"><img src="../images/instagram.jpg" alt="logo"></a>
-            <a href="https://https://web.whatsapp.com/" target="_blank"><img src="../images/whatsapp.jpg" alt="logo"></a>
-            
-        </div>
-
-        <article class="redes">
-
-            <h4>Las Heras 1658 | Villa Maipu | San Matin | distribuidoranb@gmail.com</h4>
-
-        </article>
-
+      <article class="era">
+        <h4>
+          Las Heras 1658 | Villa Maipu | San Matin | distribuidoranb@gmail.com
+        </h4>
+      </article>
     </footer>
 
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>  -->
+  </body>
 </html>
