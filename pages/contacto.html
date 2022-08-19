@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     
     <title>Distribuidora NB - Contacto</title>
 
@@ -15,37 +20,46 @@
 
     <header>
 
-        <section>
-
-            <img src="../images/logo.jpg" alt="Logo">
-    
-        </section>
-
-        <h1>Ferreterias y Constructoras</h1>
-
-        <nav class="barra">
-            
-            <ul>
-                <li> <a href="../index.html">Inicio</a></li>
-                <li> <a href="../pages/quienes.html">Quienes Somos</a></li>
-                <li> <a href="../pages/productos.html">Productos</a>
-                   
-                    <!-- <ul>
-                            <li>Bulones</li>
-                            <li>Tirafondos</li>
-                            <li>Autoperforantes</li>
-                            <li>Drywall Madera</li>
-                            <li>Fix Dorado</li>
-                            <li>Tarugos</li>
-                            <li>Maquinas</li>
-                            <li>Herramientas</li>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1220e9;">
+            <div class="container-fluid">
+              <a class="navbar-brand d-none d-md-block"><img src="../images/logo.png" alt="Logo" class="d-inline-block align-tex-center"></a>
+              <h1>Ferreterias y Constructoras</h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav me-4 mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link barran" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link barran" href="../pages/productos.html">Productos</a>
+                    <!-- <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Bulones</a></li>
+                      <li><a class="dropdown-item" href="#">Tirafondos</a></li>
+                      <li><a class="dropdown-item" href="#">Autoperforantes</a></li>
+                      <li><a class="dropdown-item" href="#">Maquinas</a></li>
+                      <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul> -->
-                </li>   
-                <li> <a href="../pages/servicio.html">Servicio</a></li>
-            </ul>
-        </nav>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link barran" href="./pages/contacto.html">Servicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link barran" href="../pages/quienes.html">Quienes Somos</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-3" type="search" placeholder="Productos" aria-label="Search">
+                  <button class="btn btn btn-primary" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
 
-    </header>
+</header>
     
     <form>
     
@@ -91,7 +105,7 @@
 
     <footer>
 
-        <article class="marcas">
+        <article class="marcas"data-aos="zoom-out-up" >
 
             <span><img src="../images/bosch.jpeg" alt="logo"></span> <samp><img src="../images/fisher.jpeg" alt=""></samp> <span><img src="../images/tel.jpeg" alt="Logo"></span> <span><img src="../images/milwaukeelogo.jpeg" alt="logo"></span> <span><img src="../images/skill.jpeg" alt="logo"></span> <span><img src="../images/tyrolit.jpeg" alt="logo"></span>
         
@@ -104,22 +118,20 @@
 
         </div>
         
-        <div class="barra alineado redes">
-
-            <a href="https://Facebook.com" target="_blank"><img src="../images/facebook.jpg" alt="logo"></a>
-            <a href="https://Instagram.com" target="_blank"><img src="../images/instagram.jpg" alt="logo"></a>
-            <a href="https://https://web.whatsapp.com/" target="_blank"><img src="../images/whatsapp.jpg" alt="logo"></a>
-            
+        <div class="alineado">
+             <a href="https://Instagram.com" target="_blank"><i class="bi-instagram"></i></a>
+             <a href="https://Facebook.com" target="_blank"><i class="bi-facebook"></i></a>
+             <a href="https://https://web.whatsapp.com/" target="_blank"><i class="bi-whatsapp"></i></a>
         </div>
 
-        <article class="redes">
+        <article class="era">
 
             <h4>Las Heras 1658 | Villa Maipu | San Matin | distribuidoranb@gmail.com</h4>
 
         </article>
 
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
