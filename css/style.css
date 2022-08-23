@@ -4,11 +4,20 @@
     box-sizing: border-box;
 }
 
-.barran{
+.navbar-nav{
     font-style: italic;
     color: white;
     list-style: none;
 }
+
+.bg-back{
+    background-color: rgba(7, 7, 218, 0.904);
+}
+
+.nav-link{
+    color: white;
+}
+
 .logo{
     background-color: rgb(48, 48, 241);
     display: flex;
@@ -29,6 +38,25 @@ li:hover{
     background-color: rgba(19, 18, 18, 0.63);
 }
 
+.btn{
+    transition: all 0.5s ease-in-out;
+    border-radius: 6px; 
+}
+
+.btn:hover{
+    background-color: rgb(19, 18, 18, 0.63);
+}
+
+.carousel-item{
+    transition: all 2s ease-in-out;
+}
+
+.carousel--item{
+    transition: all 1.2s ease-in-out ;
+}
+/* .navbar-toggler:hover{
+    background-color: rgba(192, 11, 11, 0.63);
+} */
 
 /* header{
     background-color: rgb(48, 48, 241);
@@ -140,6 +168,7 @@ li:hover{
     
 .historia{
     margin: 12px;
+    display: flex;
     text-align: center;
 }
 
@@ -191,24 +220,10 @@ h1{
     font-size: 1rem;
 }
 
-.ofertas{
-    min-width: 260px;
-    height: 350px;
-    padding: 8px;
-    margin: 13px;
-
-    font-size: small;
-
-    border-color: blue;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 15px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    }
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+}
 
 @media(min-width: 1200px){
     .ofertas-titulos{
@@ -222,6 +237,7 @@ h1{
     }
 
     .tarjeta__titulo{
+        text-align: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: large;
     }
@@ -261,7 +277,7 @@ h4{
     justify-content: space-between;
     align-items: center;
     text-align: justify;
-}    
+} 
 
 .oferta{
     margin-top: 16px;
@@ -323,6 +339,7 @@ aside{
 }
 
 .tarjeta__boton{
+    align-items: center;
     border: blue 2 px solid;
     border-radius: 30px;
 
@@ -334,7 +351,34 @@ aside{
     transition: all 0.3s ease-in-out;
 }
 
+.card{
+    margin-left: 16px;
+    border: blue 2px solid;
+    border-radius: 20px;
+    background-color: rgba(94, 94, 146, 0.329);
+}
+
+.card-text{
+    text-align: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boton-ofertas{
+    
+    border: blue 2 px solid;
+    border-radius: 20px;
+
+    background-color: steelblue;
+    margin: 10px;
+
+    padding: 6px 16px;
+
+    transition: all 0.3s ease-in-out;
+}
+
 .redes{
+    color: white;
     margin-top: 16px;
 }
 
@@ -359,6 +403,10 @@ aside{
     padding: 5px;
 }
 
+.piepag{
+    background-color: blue;
+}
+
 /* Quines Somos */
 
 *{
@@ -369,20 +417,20 @@ aside{
 
 i{
     font-size: 2rem;
-    color: black;
+    color: white;
     transition: all 0.5s ease-in-out;
 }
 
 i:hover{
     font-size: 3rem;
-    color: blue;
+    color: black;
 }
 
-.tarjeta__boton{
+.boton-ofertas{
     transition: all 0.7s ease-in-out;
 }
 
-.tarjeta__boton:hover{
+.boton-ofertas:hover{
     background-color: white;
 }
 

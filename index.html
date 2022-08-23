@@ -17,10 +17,9 @@
 <body>
 
     <header>
-
-            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1220e9;">
-                <div class="container-fluid">
-                  <a class="navbar-brand d-none d-md-block"><img src="./images/logo.png" alt="Logo" class="d-inline-block align-tex-center"></a>
+            <nav class="navbar navbar-expand-lg bg-back">
+                <div class="container">
+                  <a class="navbar-brand d-none d-md-block"><img src="./images/logo.png" alt="Logo" class="w-50"></a>
                   <h1>Ferreterias y Constructoras</h1>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -28,10 +27,10 @@
                   <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav me-4 mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link barran" aria-current="page" href="./pages/quienes.html">Quienes Somos</a>
+                        <a class="nav-link" aria-current="page" href="./pages/quienes.html">Quienes Somos</a>
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link barran" href="./pages/productos.html">Productos</a>
+                        <a class="nav-link" href="./pages/productos.html">Productos</a>
                         <!-- <ul class="dropdown-menu">
                           <li><a class="dropdown-item" href="#">Bulones</a></li>
                           <li><a class="dropdown-item" href="#">Tirafondos</a></li>
@@ -43,148 +42,161 @@
                         </ul> -->
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link barran" href="./pages/contacto.html">Contacto</a>
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link barran" href="./pages/servicio.html">Servicio</a>
+                        <a class="nav-link" href="./pages/servicio.html">Servicio</a>
                       </li>
                     </ul>
-                    <form class="d-flex" role="search">
+                    <form class="d-flex navbar-nav" role="search">
                       <input class="form-control me-3" type="search" placeholder="Productos" aria-label="Search">
                       <button class="btn btn btn-primary" type="submit">Buscar</button>
                     </form>
                   </div>
                 </div>
               </nav>
-
     </header>
     
     <section class="fondo mt-2">
-
-                <div class="principal">
-                    <h2>
-                        Bienvenidos al sitio web donde encontraras todo lo que necestias para tu ferreteria, taller, carpinteria e inclusive para las repaaciones en tu hogar.
-                    </h2>   
-                </div>
-    
+            <div class="principal">
+                <h2>
+                    Bienvenidos al sitio web donde encontraras todo lo que necestias para tu ferreteria, taller, carpinteria e inclusive para las repaaciones en tu hogar.
+                </h2>   
+            </div>
     </section>
 
     <main>
+        <h2 class="era">Quienes Somos</h2>
 
-        <section>
+        <section class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6 d-flex">
+                    <p class="historia" data-aos="fade-down-right" >Somos una empresa jóven que busca el crecimiento, mediante la satisfaccion de las necesidades de nuestros clientes, teniendo como prioridad la transparencia y honestidad que rigen cada una de nuestras ventas.
 
-            <h2 class="era">Quienes Somos</h2>
+                        Contamos con oficina, local comercial y deposito ubicados en zona norte.
 
-            <div class="somos">
-                <p class="historia"data-aos="fade-down-right" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, magnam?
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, labore!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, eveniet.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, dolorum.
-                </p>
-
-                <div class="imagen__quienes">
-                    
-                    <!-- <img src="./images/fondopag.jpg" alt="fondo"> -->
+                        Ofrecemos atención perzonalizada, un amplio catálogo, stock de productos y asesoramiento especializado. Brindamos respuesta rapida que nos permite brindar soluciones integrales a las necesidades de nuestros clientes.
+                    </p>
                 </div>
-
-                <!-- <div class="imagen__quienes">
-                    <img src="./images/fondo.jpg" alt="Quienes">
-                </div> -->
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./images/fondo.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/fondo.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./images/fondopag.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
             </div>
- 
-               <h3 class="era">La Nueva Era de La Costrucción</h3>
-
-            <div class="somos">
-
-                <article class="era__media">
-
-                     <iframe width="420" height="315" src="https://www.youtube.com/embed/eytAF51koCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                </article>
-                 
-                <article class="ubicacion">
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, voluptates.</p>
-
-                </article>
-
-            </div>
-        
         </section>
+
+               <h2 class="era">La Nueva Era de La Costrucción</h2>
+
+               <section class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./images/estructura.jpg" class="d-block w-100" alt="Estructura">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./images/construccionseco.jpg" class="d-block w-100" alt="Seco">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./images/Construccionmaterial.jpg" class="d-block w-100" alt="Materiales">
+                              </div>
+                            </div>
+                            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button> -->
+                          </div>                       
+                        </div>
+                    <div class="col-12 col-md-12 col-lg-6">
+                        <p class="historia">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, voluptates.</p>
+                    </div>
+                </div>
+                </section>
+
 
         <section> 
 
             <h2 class="era">Ofertas</h2>
 
-            <div class="ofertas-titulos">   
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card h-100">
+                    <h5 class="tarjeta__titulo">Taladro Bosch 18V</h5>
+                    <img src="./images/taladrobosch2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Taladro Inalambrico, incluye maletin mas un cargador mas una bateria de 1.5ah</p>
+                      <button href="#" class="boton-ofertas">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card h-100">
+                    <h5 class="tarjeta__titulo">Sierra Circular Bosch</h5>
+                    <img src="./images/sskil.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Siera Circular Bosch 900w.</p>
+                      <button href="#" class="boton-ofertas">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card h-100">
+                    <h5 class="tarjeta__titulo">Sierra Circular Skil</h5>
+                    <img src="./images/sskil.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Sierra Circular Electrica 800w.</p>
+                      <button href="#" class="boton-ofertas">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card h-100">
+                    <h5 class="tarjeta__titulo">Taladro Milwaukee 12V</h5>
+                    <img src="./images/tmilwaukee.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Taladro Inalambrico Milwaukee 12V, incluye maletin mas cargador mas 1 bateria de 2.5ah y de 4ah.</p>
+                      <button href="#" class="boton-ofertas">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-                <article class="tarjeta ofertas">
-
-                    <h3 class="tarjeta__titulo">Taladro 18V</h3>
-
-                    <img src="./images/taladroin-bosch.jpg" alt="Taladro" class="tareta__imagen">
-
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quibusdam.</p>
-                
-                    <button class="tarjeta__boton">Comprar</button>
-                    
-                </article>
-
-                <article class="tarjeta ofertas">
-
-                    <h3 class="tarjeta__titulo">Sierra Circular 18V</h3>
-
-                    <img src="./images/taladroin-bosch.jpg" alt="Sierra" class="tarjeta__imagen">
-
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quibusdam.</p>
-
-                
-                    <button class="tarjeta__boton">Comprar</button>
-
-                </article>
-
-                <article class="tarjeta ofertas">
-
-                    <h3 class="tarjeta__titulo">Sierra Circular 18V</h3>
-
-                    <img src="./images/taladroin-bosch.jpg" alt="Sierra" class="tarjeta__imagen">
-
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quibusdam.</p>
-
-                    <button class="tarjeta__boton">Comprar</button>
-
-                </article>
-
-                <article class="tarjeta ofertas">
-
-                    <h3 class="tarjeta__titulo">Sierra Circular 18V</h3>
-
-                    <img src="./images/taladroin-bosch.jpg" alt="Sierra" class="tarjeta__imagen">
-
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quibusdam.</p>
-            
-                    <button class="tarjeta__boton">Comprar</button>
-
-                </article>
-
-            </div> 
-
-        </section>
-
-            <div>
             <h2 class="era">Novedades</h2>
-            </div>
 
         <section class="container-fluid">   
                 <div class="row">
                   <div class="col-12 col-md-4 col-lg-4">
-                    <img src="./images/milwaukee.jpg" alt="milwaukee" class="novedades"> 
+                    <img src="./images/milwaukee.jpg" alt="milwaukee" class="novedades w-100"> 
                   </div>
-                  <div class="col-12 col-md-4 col-lg-4">
-                    <img src="./images/boschfondo.jpg" alt="bosch" class="novedades">
+                  <div class="col-12 col-md-4 col-lg-4 mt-2">
+                    <img src="./images/boschfondo.jpg" alt="bosch" class="novedades w-100">
                   </div>
-                  <div class="col-12 col-md-4 col-lg-4">
-                    <img src="./images/skillfondo.jpg" alt="skill" class="novedades">
+                  <div class="col-12 col-md-4 col-lg-4 mt-2">
+                    <img src="./images/skillfondo.jpg" alt="skill" class="novedades w-100">
                   </div> 
                 </div>
                 <div class="row mt-2">
@@ -194,7 +206,7 @@
                   </div>
         </section>
      
-        <h2 class="era">Retira tus Compras en Nuestro Deposito</h2>
+        <h3 class="era">Retira tus Compras en Nuestro Deposito</h3>
 
         <section class="somos">
 
@@ -220,10 +232,10 @@
         
         </article>
 
-        
+        <article class="piepag">
         <div class="redes">
 
-            <h2 class="alineado">Siguenos en Nuestras Redes</h2>
+            <h4 class="alineado">Siguenos en Nuestras Redes</h4>
 
         </div>
         
@@ -238,6 +250,7 @@
             <h4>Las Heras 1658 | Villa Maipu | San Matin | distribuidoranb@gmail.com</h4>
 
         </article>
+        </article>
 
     </footer>
 
@@ -245,6 +258,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script> 
+    </script> 
 </body>
 </html>
