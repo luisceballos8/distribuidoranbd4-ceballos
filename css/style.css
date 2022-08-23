@@ -480,4 +480,8 @@ i:hover{
     box-sizing: border-box;
 }
 
+.servicio{
+    background-color: rgba(118, 118, 170, 0.664);
+}
+
 /* Contacto */
