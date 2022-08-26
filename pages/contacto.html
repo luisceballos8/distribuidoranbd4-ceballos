@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     
     <title>Distribuidora NB - Contacto</title>
@@ -20,9 +20,10 @@
 
     <header>
 
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1220e9;">
-            <div class="container-fluid">
-              <a class="navbar-brand d-none d-md-block"><img src="../images/logo.png" alt="Logo" class="d-inline-block align-tex-center"></a>
+        <nav class="navbar navbar-expand-lg bg-back">
+            <div class="container">
+              <a class="navbar-brand d-none d-md-block"><img src="../images/logo.png" alt="Logo" class="w-50"></a>
+
               <h1>Ferreterias y Constructoras</h1>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,10 +31,12 @@
               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav me-4 mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link barran" aria-current="page" href="../index.html">Inicio</a>
+
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link barran" href="../pages/productos.html">Productos</a>
+                    <a class="nav-link" href="../pages/quienes.html">Quienes Somos</a>
+
                     <!-- <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="#">Bulones</a></li>
                       <li><a class="dropdown-item" href="#">Tirafondos</a></li>
@@ -45,19 +48,22 @@
                     </ul> -->
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link barran" href="./pages/contacto.html">Servicio</a>
+
+                    <a class="nav-link" href="../pages/productos.html">Productos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link barran" href="../pages/quienes.html">Quienes Somos</a>
+                    <a class="nav-link" href="../pages/servicio.html">Servicio</a>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
+                <form class="d-flex navbar-nav" role="search">
+
                   <input class="form-control me-3" type="search" placeholder="Productos" aria-label="Search">
                   <button class="btn btn btn-primary" type="submit">Buscar</button>
                 </form>
               </div>
             </div>
           </nav>
+
 
 </header>
     
@@ -111,10 +117,10 @@
         
         </article>
 
-        
+        <article class="piepag">
         <div class="redes">
 
-            <h2 class="alineado">Siguenos en Nuestras Redes</h2>
+            <h4 class="alineado">Siguenos en Nuestras Redes</h4>
 
         </div>
         
@@ -129,9 +135,16 @@
             <h4>Las Heras 1658 | Villa Maipu | San Matin | distribuidoranb@gmail.com</h4>
 
         </article>
+        </article>
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
