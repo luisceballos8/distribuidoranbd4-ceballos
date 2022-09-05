@@ -1,487 +1,199 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.navbar-nav {
+  font-style: italic;
+  color: white;
+  list-style: none;
 }
 
-.navbar-nav{
-    font-style: italic;
-    color: white;
-    list-style: none;
+h1 {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.2rem;
 }
 
-.bg-back{
-    background-color: rgba(7, 7, 218, 0.904);
+.bg-back {
+  background-color: rgba(7, 7, 218, 0.904);
+}
+.bg-back .nav-link {
+  color: white;
 }
 
-.nav-link{
-    color: white;
+li {
+  transition: all 0.5s ease-in-out;
+  border-radius: 6px;
+}
+li:hover {
+  background-color: rgba(19, 18, 18, 0.63);
 }
 
-.logo{
-    background-color: rgb(48, 48, 241);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.btn {
+  border: white 2px solid;
+  transition: all 0.5s ease-in-out;
+  border-radius: 6px;
+}
+.btn:hover {
+  border: black 2px solid;
+  background-color: rgba(19, 18, 18, 0.63);
 }
 
-.titulo__principal{
-    text-align: center;
+.marcas {
+  text-align: center;
+  margin-top: 6px;
+  padding: 5px;
 }
 
-li{
-    transition: all 0.5s ease-in-out;
-    border-radius: 6px;
+.piepag {
+  background-color: blue;
+}
+.piepag .redes {
+  color: white;
+  margin-top: 16px;
+}
+.piepag .redes .alineado {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1rem;
 }
 
-li:hover{
-    background-color: rgba(19, 18, 18, 0.63);
+.somos {
+  margin-top: 8px;
+  background-color: rgb(182, 182, 214);
+  height: 96%;
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 10px;
+}
+.somos .ubicacion {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+}
+.somos .ubicacion .retiro__map {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  padding: 5px;
 }
 
-.btn{
-    transition: all 0.5s ease-in-out;
-    border-radius: 6px; 
+i {
+  font-size: 2rem;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+i:hover {
+  font-size: 2.5rem;
+  color: black;
 }
 
-.btn:hover{
-    background-color: rgb(19, 18, 18, 0.63);
+.principal {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgba(111, 112, 177, 0.514);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 5px;
+  padding: 10px;
 }
 
-.carousel-item{
-    transition: all 2s ease-in-out;
+.era {
+  background-color: blue;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
 }
 
-.carousel--item{
-    transition: all 1.2s ease-in-out ;
-}
-/* .navbar-toggler:hover{
-    background-color: rgba(192, 11, 11, 0.63);
-} */
-
-/* header{
-    background-color: rgb(48, 48, 241);
-    padding: 12px;
-
-    display: flex;
-    
-    justify-content: space-between;
-    align-items: center;
-} */
-
-/* header nav{
-    text-align: center;
-    width: 100%;
-} */
-
-/* header nav ul{
-    display: flex;
-    justify-content: space-around;
-} */
-
-/* header nav ul li a{
-    color: white;
-} */
-
-/* @media(min-width: 1200px) {
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    header nav{
-        width: 50%;
-    }
-
-    .logo{
-        text-align: left;
-    }
-
-    .titulo__principal{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-       
-    }
-} */
-/* .buscador{
-    display: flex;
-    justify-content: right;
-    text-align: right;
-   
-} */
-
-.fondo{
-    color: white;
-
-    width: 100%;
-    height: 100vh;
-
-    background: url("../images/fondopag.jpg") left / cover no-repeat;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;    
+.historia {
+  margin: 12px;
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
-.principal{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: rgba(111, 112, 177, 0.514);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-radius: 5px;
-    padding: 10px;
+.datos {
+  background-color: blue;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
 }
 
-.somos{
+.card {
+  margin-left: 16px;
+  border: blue 2px solid;
+  border-radius: 20px;
+  background-color: rgba(94, 94, 146, 0.329);
+}
+.card .tarjeta__titulo {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  margin-top: 2px;
+}
 
+.card-text {
+  text-align: center;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 0.8rem;
+}
+
+.boton-ofertas {
+  border: blue 2px solid;
+  border-radius: 20px;
+  background-color: steelblue;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+.boton-ofertas:hover {
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  .somos {
     margin-top: 8px;
-
-    background-color: rgb(182, 182, 214);
-   
+    background-color: rgba(182, 182, 214, 0.699);
     height: 96%;
-
     display: grid;
-
     grid-template-columns: 1fr 1fr;
-
     column-gap: 10px;
-}
-
-.imagen__quienes{  
-    width: 100%;
-    height: 60vh;
-
-    background-image: url(../images/fondo.jpg);
-
-}
-
-.era{
-    color: white;
-    background-color: blue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: 10px;
-    padding: 5px;
-    } 
-    
-.historia{
-    margin: 12px;
-    display: flex;
-    text-align: center;
-}
-
-.era__media{
-        color: white;
-        text-align: center;
-        margin-top: 8px;
-        padding: 5px;
-    }
-
-@media(min-width: 1200px){
-    .somos{
-        margin-top: 8px;
-        background-color: rgb(182, 182, 214);
-        height: 96%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10px;
-    }
-
-    .historia{
-        margin: 5px;
-        display: flex;
-    
-        justify-content: space-between;
-        align-items: center;
-        text-align: justify;
-    }
-}
-
-a{
-    text-decoration: none;
-}
-
-h1{
-   color: white;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   font-size: 2rem;
-}
-
-.quienes{
-    color: black;
-    text-align: center;
-}
-
-.alineado{
-    margin-top: 10px;
-    text-align: center;
-    font-size: 1rem;
-}
-
-p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.2rem;
-}
-
-@media(min-width: 1200px){
-    .ofertas-titulos{
-        display: flex;
-        justify-content: flex-start;
-        gap: 5px;
-
-        padding: 10px;
-
-        /* overflow: scroll; */
-    }
-
-    .tarjeta__titulo{
-        text-align: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: large;
-    }
-
-    .ofertas{
-        min-width: 200px;
-        height: 350px;
-
-        align-items: center;
-    }
-}
-
-/* .ofertas-titulos{
-    display: flex;
-    justify-content: flex-start;
-    gap: 5px;
-
-    padding: 12px;
-
-    overflow: scroll;
-    } */
-
-h4{
-    background-color:blue;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-
-    padding: 12px;
-    }
-
-
-.ubicacion{
-    margin: 5px;
-    display: flex;
-    
-    justify-content: space-between;
+  }
+  .retiro__map {
     align-items: center;
-    text-align: justify;
-} 
-
-.oferta{
-    margin-top: 16px;
-
-    color: white;
-    background-color: blue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    margin-top: 5px;
-    padding: 5px;
+    width: 410px;
+  }
+}
+.servicio {
+  background-color: rgba(118, 118, 170, 0.486);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media(min-width: 1200px){
-    .novedades-g{
-        margin-top: 16px;
-        padding: 10px;
-        display: grid;
-
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat(2, 1fr);
-
-        grid-template-areas: 
-        "milwaukee bosch aside"
-        "einhell skill aside";
-
-        column-gap: 60px;
-        row-gap: 32px;
-    }
+.titulo-productos {
+  color: white;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  margin-top: 5px;
+  background-color: rgb(19, 19, 160);
 }
 
-.marca__nueva{
-    text-align: center;
-    margin: 15px;
-
-    transition: 3s;
+.fondo {
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/fondopag.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.marca__nueva:hover{
-    transform: scale(1,1.2);
-}
-.milwaukee{
-    grid-area: milwaukee;
-}
-
-.bosch{
-    grid-area: bosch;
-}
-
-.einhell{
-    grid-area: einhell;
-}
-
-.skill{
-    grid-area: skill;
-}
-
-aside{
-    grid-area: aside;
-}
-
-.tarjeta__boton{
-    align-items: center;
-    border: blue 2 px solid;
-    border-radius: 30px;
-
-    background-color: steelblue;
-    margin: 10px;
-
-    padding: 6px 16px;
-
-    transition: all 0.3s ease-in-out;
-}
-
-.card{
-    margin-left: 16px;
-    border: blue 2px solid;
-    border-radius: 20px;
-    background-color: rgba(94, 94, 146, 0.329);
-}
-
-.card-text{
-    text-align: center;
-    align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.boton-ofertas{
-    
-    border: blue 2 px solid;
-    border-radius: 20px;
-
-    background-color: steelblue;
-    margin: 10px;
-
-    padding: 6px 16px;
-
-    transition: all 0.3s ease-in-out;
-}
-
-.redes{
-    color: white;
-    margin-top: 16px;
-}
-
-.marcas{
-    text-align: center;
-    margin-top: 6px;
-    padding: 5px;
-}
-
-.retiro{
-    color: white;
-    text-align: center;
-    background-color: blue;
-
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 5px;
-}
-
-.retiro__map{
-    text-align: center;
-    margin-top: 5px;
-    padding: 5px;
-}
-
-.piepag{
-    background-color: blue;
-}
-
-/* Quines Somos */
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-i{
-    font-size: 2rem;
-    color: white;
-    transition: all 0.5s ease-in-out;
-}
-
-i:hover{
-    font-size: 3rem;
-    color: black;
-}
-
-.boton-ofertas{
-    transition: all 0.7s ease-in-out;
-}
-
-.boton-ofertas:hover{
-    background-color: white;
-}
-
-/* Productos */
-
-.productos1{
-    text-align: center;
-
-    width: 250px;
-    height: 380px;
-
-    border-color: blue;
-    border-width: 2px;
-    border-style: none;
-
-    margin: 20px 30px 70px 50px;
-
-    padding: 15px;
-
-    display: inline-block;
-}
-
-.titulo-productos{
-    color: white;
-    text-align: center;
-
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1,2rem;
-
-    margin-top: 5px;
-
-    background-color: rgb(19, 19, 160)
-}
-
-.bulones{
-    text-align: center;
-    margin-top: 16px;
-    padding-top: 10px;
-}
-    
-
-/* Servico */
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.servicio{
-    background-color: rgba(118, 118, 170, 0.664);
-}
-
-/* Contacto */
+/*# sourceMappingURL=style.css.map */

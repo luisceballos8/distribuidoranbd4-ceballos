@@ -1,0 +1,15 @@
+@import"./utils/variables";
+
+@import"./components/navegacion";
+
+@import"./body/mystyle";
+
+.fondo{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-image:url(../images/fondopag.jpg)  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
