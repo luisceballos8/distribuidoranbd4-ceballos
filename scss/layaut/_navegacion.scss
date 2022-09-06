@@ -1,0 +1,50 @@
+.navbar-nav{
+    font-style: italic;
+    color: white;
+    list-style: none; 
+}
+
+.bg-back{
+    background-color: $color-primario;
+    .nav-link{
+        color: white;
+    }
+}
+
+li{
+    transition: all 0.5s ease-in-out;
+    border-radius: 6px;
+    &:hover{
+        background-color: rgba(19, 18, 18, 0.63);
+    }
+}
+
+.btn{
+    border: white 2px solid;
+    transition: all 0.5s ease-in-out;
+    border-radius: 6px;
+    &:hover{
+        border: black 2px solid;
+        background-color: rgba(19, 18, 18, 0.63);
+    }
+}
+
+i{
+    font-size: 2rem;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    &:hover{
+        font-size: 2.5rem;
+        color: black;
+    }
+}
+
+.fondo{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-image:url(../images/fondopag.jpg)  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
