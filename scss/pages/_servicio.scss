@@ -3,4 +3,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5px;
+}
+
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.mapa{
+    text-align: center;
+}
+
+img{
+    object-fit: contain;
 }

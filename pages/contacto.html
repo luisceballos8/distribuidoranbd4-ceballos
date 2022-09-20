@@ -1,37 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
     <title>Distribuidora NB - Contacto</title>
 
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-back">
-            <div class="container">
-              <a class="navbar-brand d-none d-md-block"><img src="../images/logo.png" alt="Logo" class="w-50"></a>
-              <h1>Ferreterias y Constructoras</h1>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav me-4 mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link" href="../pages/quienes.html">Nosotros</a>
-                    <!-- <ul class="dropdown-menu">
+      <nav class="navbar navbar-expand-lg bg-back">
+        <div class="container">
+          <a class="navbar-brand d-none d-md-block"
+            ><img src="../images/logo.png" alt="Logo" class="w-50"
+          /></a>
+          <h1>Ferreterias y Constructoras</h1>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-4 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="../pages/quienes.html">Nosotros</a>
+                <!-- <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="#">Bulones</a></li>
                       <li><a class="dropdown-item" href="#">Tirafondos</a></li>
                       <li><a class="dropdown-item" href="#">Autoperforantes</a></li>
@@ -40,95 +65,117 @@
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul> -->
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/productos.html">Productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/servicio.html">Servicio</a>
-                  </li>
-                </ul>
-                <form class="d-flex navbar-nav" role="search">
-                  <input class="form-control me-3" type="search" placeholder="Productos" aria-label="Search">
-                  <button class="btn btn btn-primary" type="submit">Buscar</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-</header>
-    
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/servicio.html">Servicio</a>
+              </li>
+            </ul>
+            <form class="d-flex navbar-nav" role="search">
+              <input
+                class="form-control me-3"
+                type="search"
+                placeholder="Productos"
+                aria-label="Search"
+              />
+              <button class="btn btn btn-primary" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
     <form class="contact">
-    
-        <fieldset>
-    
-            <legend>Formulario</legend>
-    
-            <div>
-                <label for="nombre-usuario">Nombre y Apellido</label>
-                <input type="text" id="nombre-usuario" name="nombre-usuario">
-            </div>
-    
-            <div>
-                <h3>Por que medio te contactamos?</h3>
-    
-                <div>
-                    <label for="contacto-telefono">Telefono</label>
-                    <input type="radio" id="contacto-telefono" name="metodo-contacto" value="ingresar">
-                    <input type="text">
-                </div>
-    
-                <div>
-                    <label for="contacto-email">Email</label>
-                    <input type="radio" id="contacto-email" name="metodo-contacto" value="ingresar">
-                    <input type="text">
-                </div>
-            </div>
-    
-            <div>
-                <label for="mensaje-usuario">Mensaje</label>
-                <textarea cols="30" rows="10" id="mensaje-usuario" name="mensaje-usuario" ></textarea>
-            </div>
-    
-            <div>
-                <label for="news-usuario">Quiere Suscribirte a Nuestro NewsLetter?</label>
-                <input type="checkbox" id="news-usuario" name="news-usuaio">
-            </div>
-    
-            <input type="submit" value="Enviar" class="btn">
-        </fieldset>
-    
+      <fieldset>
+        <legend>
+          <h2>Formulario de Contacto</h2>
+          <h3>Dejanos tus datos para ponernos en contacto contigo</h3>
+        </legend>
+
+        <div>
+          <label for="nombre-usuario">Nombre y Apellido</label>
+          <input
+            type="text"
+            id="nombre-usuario"
+            name="nombre-usuario"
+            class="borde borde-form margen"
+          />
+        </div>
+
+        <div>
+          <div>
+            <label for="contacto-telefono">Telefono</label>
+            <input type="text" class="borde borde-form margen" />
+          </div>
+
+          <div>
+            <label for="contacto-email">Email</label>
+            <input type="text" class="borde borde-form margen" />
+          </div>
+        </div>
+
+        <div>
+          <label for="mensaje-usuario">Mensaje</label>
+          <textarea
+            cols="30"
+            rows="10"
+            id="mensaje-usuario"
+            name="mensaje-usuario"
+            class="borde borde-form margen"
+          ></textarea>
+        </div>
+
+        <div>
+          <label for="news-usuario"
+            >Quieres Suscribirte a Nuestro NewsLetter?</label
+          >
+          <input type="checkbox" id="news-usuario" name="news-usuaio" class="input-news" />
+        </div>
+
+        <input type="submit" value="Enviar información" class="btn" />
+      </fieldset>
     </form>
 
     <footer>
-
-      <article class="marcas"data-aos="zoom-out-up" >
-
-          <span><img src="../images/bosch.jpeg" alt="logo bosch"></span> <samp><img src="../images/fisher.jpeg" alt="logo fisher"></samp> <span><img src="../images/tel.jpeg" alt="Logo tel"></span> <span><img src="../images/milwaukeelogo.jpeg" alt="logo milwaukee"></span> <span><img src="../images/skill.jpeg" alt="logo skil"></span> <span><img src="../images/tyrolit.jpeg" alt="logo tyrolit"></span>
-      
+      <article class="marcas" data-aos="zoom-out-up">
+        <span><img src="../images/bosch.jpeg" alt="logo bosch" /></span>
+        <samp><img src="../images/fisher.jpeg" alt="logo fisher" /></samp>
+        <span><img src="../images/tel.jpeg" alt="Logo tel" /></span>
+        <span
+          ><img src="../images/milwaukeelogo.jpeg" alt="logo milwaukee"
+        /></span>
+        <span><img src="../images/skill.jpeg" alt="logo skil" /></span>
+        <span><img src="../images/tyrolit.jpeg" alt="logo tyrolit" /></span>
       </article>
 
       <article class="piepag">
-      <div class="redes">
-
+        <div class="redes">
           <h4 class="alineado">Siguenos en Nuestras Redes</h4>
 
           <div class="alineado">
-            <a href="https://Instagram.com" target="_blank"><i class="bi-instagram"></i></a>
-            <a href="https://Facebook.com" target="_blank"><i class="bi-facebook"></i></a>
-            <a href="https://https://web.whatsapp.com/" target="_blank"><i class="bi-whatsapp"></i></a>
+            <a href="https://Instagram.com" target="_blank"
+              ><i class="bi-instagram"></i
+            ></a>
+            <a href="https://Facebook.com" target="_blank"
+              ><i class="bi-facebook"></i
+            ></a>
+            <a href="https://https://web.whatsapp.com/" target="_blank"
+              ><i class="bi-whatsapp"></i
+            ></a>
           </div>
-      </div>
-      
-          <h5 class="datos d-none d-md-block">Las Heras 1658 | Villa Maipu | San Martin | distribuidoranb@gmail.com</h5>
+        </div>
 
+        <h5 class="datos d-none d-md-block">
+          Las Heras 1658 | Villa Maipu | San Martin | distribuidoranb@gmail.com
+        </h5>
       </article>
-
-  </footer>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
-</body>
-
+  </body>
 </html>
