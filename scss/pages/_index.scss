@@ -17,7 +17,6 @@
 .era{
     background-color: blue;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5rem;
     text-align: center;
     margin-top: 10px;
@@ -71,6 +70,10 @@
     }   
 }
 
+.fondocol{
+    background-color: rgba(106, 147, 170, 0.534);
+}
+
 .card-text{
     text-align: center;
     align-items: center;
@@ -91,3 +94,4 @@ body::-webkit-scrollbar {
     border-radius: 3px;
     border: 3px solid cornflowerblue;
   }
+

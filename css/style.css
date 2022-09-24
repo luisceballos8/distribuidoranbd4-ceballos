@@ -147,7 +147,6 @@ h1 {
 .era {
   background-color: blue;
   color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1.5rem;
   text-align: center;
   margin-top: 10px;
@@ -198,6 +197,10 @@ h1 {
   margin-top: 2px;
 }
 
+.fondocol {
+  background-color: rgba(106, 147, 170, 0.534);
+}
+
 .card-text {
   text-align: center;
   align-items: center;
@@ -222,6 +225,10 @@ body::-webkit-scrollbar-thumb {
 .descripcion {
   margin-top: 6px;
   padding: 5px;
+}
+
+.fondocol {
+  background-color: rgba(106, 147, 170, 0.534);
 }
 
 body {
@@ -288,7 +295,7 @@ body {
 }
 
 textarea {
-  width: 405px;
+  width: 380px;
   height: 150px;
   border-radius: 5px;
   border-style: solid;
@@ -300,7 +307,7 @@ textarea {
 }
 
 input {
-  width: 408px;
+  width: 380px;
   height: 40px;
   border-radius: 5px;
   border-style: solid;
@@ -318,7 +325,7 @@ label {
 }
 
 .servicio {
-  background-color: rgba(118, 118, 170, 0.486);
+  background-color: rgba(106, 147, 170, 0.534);
   display: flex;
   justify-content: center;
   align-items: center;
